@@ -6,26 +6,38 @@
    
   </head>
   
- <body>
-    <body>
-   ##<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-  ##<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
-    <nav class="navbar navbar-expand-md bg-primary navbar-light">
-      <a class="navbar-brand" href="#">Video Game Sales data</a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="collapsibleNavbar">
-        <ul class="navbar-nav">
-          <li class="active">
-            <a class="nav-link" href="#">About the data</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="page2.html">Franchise data</a>
-          </li>    
-        </ul>
-      </div>  
-    </nav>
+<style>
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+</style>
+</head>
+<body>
+
+<ul>
+  <li><a class="active" href="home.html">About the data</a></li>
+  <li><a href="GraphPage.html">Franchise Data</a></li>
+</ul>
   
    <h1> CORGIS Video Games Data Work </h1>
   <p> This data used is taken from the <a href="https://think.cs.vt.edu/corgis/json/index.html">CORGIS data project</a> regarding the statistics following video games made between the years 2004 and 2010 collected by Dr. Joe Cox. The data may have greatly fluctuated fom 2010 to present, as games are highly replayable and continue to be sold years after release, but with this data we can get an idea of each games release sales.</p>
