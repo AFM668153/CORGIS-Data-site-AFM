@@ -7,9 +7,9 @@ app = Flask(__name__)
 def render_main():
     return render_template('home.html')
 
-@app.route("/Data") #annotations tell which function goes with which request.
+@app.route("/GraphPage") #annotations tell which function goes with which request.
 def render_page1():
-    return render_template('page1.html')
+    return render_template('GraphPage.html')
 
 @app.route("/DataFinder")
 def render_page2():
